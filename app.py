@@ -35,6 +35,7 @@ def exibir_subtitulo(msg):
 
 
 def cadastrar_novo_restaurante():
+
     exibir_subtitulo("Cadastro de novos restaurantes")
     nome_do_restaurante = input("\nDigite o nome do restaurante que deseja cadastrar\n-> ")
     categoria = input(f"\nDigite o nome da catergoria do restaurante {nome_do_restaurante}: ")
@@ -94,6 +95,7 @@ def escolher_opcao():
             finalizar_app()
         else: 
             opcao_invalida()
+            
     except:
         opcao_invalida()
 
